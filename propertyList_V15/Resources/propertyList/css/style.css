@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande";
+    font-size: 12px;
+}
+
+#propertyList {
+    line-height: 18px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+#propertyList tr,
+#propertyList td {
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+}
+
+#propertyList th {
+    text-align: right;
+    vertical-align: middle;
+    padding: 2px 8px;
+    border: 1px solid #ddd;
+    width: 130px;
+}
+
+.pl-label{
+	text-align: right;
+}
+
+.pl-group{
+	background-color: #ddd;
+}
+
+.align-Top{
+	text-align: right;
+	vertical-align: top !important;
+}
+
+#propertyList input[type=text]{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 2px;
+	font-family: "Lucida Grande";
+	font-size: 12px;
+}
+
+#propertyList button{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 2px;
+	font-family: "Lucida Grande";
+	font-size: 12px;
+}
+
+#propertyList select{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 2px;
+	font-family: "Lucida Grande";
+	font-size: 12px;
+}
+
+#propertyList textarea{
+	width: 99%;
+	border: 1px solid #ddd;
+	padding: 4px;
+	resize: vertical;
+	font-family: "Lucida Grande";
+	font-size: 12px;
+}
